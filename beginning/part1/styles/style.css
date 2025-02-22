@@ -37,3 +37,11 @@ a:hover {
 ul {
     list-style-type: none;
 }
+
+li:nth-child(1) {
+    color: blue;
+}
+
+li:nth-child(5) {
+    color: red;
+}
