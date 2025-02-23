@@ -32,14 +32,14 @@ h2 {
     border: 1px solid #222E50;
     border-radius: 5px;
     background-color: #EFEFEF;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
-h2 section {
+section > p {
     width: 33%;
     border: 1px solid #222E50;
     border-radius: 25px;
-    padding:  20px;
+    padding:  30px;
     margin-bottom: 20px;
 }
 
@@ -70,6 +70,7 @@ td {
 
 .feature-container img {
     width: 300px;
+    border-radius: 20px;
 }
 
 .feature-container p:nth-child(3) {
@@ -85,6 +86,11 @@ td {
 .feature-container ul {
     text-align: left;
     padding-left: 70px;
+}
+
+#cat-care, #quizzes, #community {
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .community {
@@ -110,14 +116,14 @@ td {
     padding-top: 20px;
 }
 
-.community div {
+.community p::first-line {
+    font-weight: bold;
+}
+
+section div {
     width: 33%; 
     border: 1px solid #222E50;
     border-radius: 25px;
     padding:  20px;
     margin-bottom: 20px;
-}
-
-.community p {
-    border: none;
 }
